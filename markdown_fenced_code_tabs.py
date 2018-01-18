@@ -254,8 +254,8 @@ class FencedCodeTabsSet(object):
         </ul>
     """
     TAB_SET_HANDLE_TEMPLATE = """
-        <li class="nav-item {isTabActiveClass}">
-            <a href="#{id}" aria-controls="{id}" role="tab" data-toggle="tab" data-lang="{lang}">{label}</a>
+        <li class="nav-item">
+            <a class="nav-link {isTabActiveClass}" href="#{id}" aria-controls="{id}" role="tab" data-toggle="tab" data-lang="{lang}">{label}</a>
         </li>
     """
     TAB_SET_TAB_CONTAINER_TEMPLATE = """
